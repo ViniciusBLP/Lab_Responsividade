@@ -1,0 +1,165 @@
+@media screen and (max-width: 767px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 33, 45);
+    }
+
+    header h1 {
+        position: relative;
+        top: 20px;
+        left: 20px;
+        padding: 10px;
+        margin-left: 13%;
+        display: inline;
+        color: white;
+    }
+
+    header strong {
+        color: rgb(0, 157, 224);
+    }
+
+    header nav {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        padding: 10px;
+        margin-right: 10.9%;
+    }
+
+    header nav ul {
+        list-style-type: none;
+        padding: 10px;
+        margin: 0;
+    }
+
+    header nav li {
+        display: inline;
+        margin-right: 50px;
+    }
+
+    header nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    header li:first-child a {
+        color: rgb(0, 96, 124);
+    }
+
+    main {
+        background-size: contain;
+        background-color: white;
+        margin: 0;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .banner {
+        color: white;
+        background-image: url(trab2/img/surf.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center top;
+        text-align: left;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .banner h1 {
+        font-size: 100px
+    }
+
+    .portifolio {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box {
+        background-color: rgb(0, 108, 159);
+        border: 1px solid rgb(0, 108, 159);
+        padding: 20px;
+        text-align: left;
+        color: white;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .box button {
+        color: white;
+        background-color: #00BBEE;
+    }
+
+    .testimonials {
+        overflow: hidden;
+    }
+
+    .testimonials h3 {
+        margin: 10px;
+    }
+
+    .testimonials img {
+        margin: 10px;
+        float: left;
+    }
+
+    .testimonials p {
+        margin-right: 500px;
+    }
+
+    .testimonials a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+
+    .comments {
+        text-align: right;
+    }
+
+    .comments h3 {
+        margin-right: 445px;
+    }
+
+    .comments blockquote {
+        text-align: right;
+        background-color: rgb(191, 238, 255);
+        padding: 10px;
+        margin-left: 500px;
+    }
+
+    .comments-author {
+        margin-left: 500px;
+        font-style: italic;
+        white-space: nowrap;
+    }
+
+    main nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        background-color: rgb(191, 238, 255);
+        height: 30px;
+    }
+
+    main nav ul li {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    main nav ul li:last-child {
+        margin-right: 0;
+    }
+
+    main nav ul li a {
+        text-decoration: none;
+    }
+
+    footer {
+        color: white;
+        text-align: center;
+    }
+}
